@@ -1,0 +1,34 @@
+{
+  "release": "v2026.10.22",
+  "platform": "Windows 10/11 x64",
+  "assets": [
+    {
+      "application": "Programy SRSS",
+      "version": "1.2.0",
+      "file": "Programy-SRSS-1.2.0-x64.msi",
+      "bytes": 158994432,
+      "sha256": "513dabe0a24dab22df182957adfd02950fa23c69f3fba498a70f39202a387309"
+    },
+    {
+      "application": "Pomůcky Mini",
+      "version": "0.4.0",
+      "file": "Pomucky-Mini-0.4.0-Setup-x64.exe",
+      "bytes": 582739920,
+      "sha256": "ea2cced50581d97e83d876284e3fbbe229d03785ea1d726c500abda13405c487"
+    },
+    {
+      "application": "PDF čtečka",
+      "version": "1.3.1",
+      "file": "PDF-Prohlizec-1.3.1-Setup-x64.exe",
+      "bytes": 573198515,
+      "sha256": "7f3abeb6826672453a270113310761d319096e58eaf6826ab7c4149422061192"
+    },
+    {
+      "application": "Tvorba vizualizací",
+      "version": "0.2.0",
+      "file": "Tvorba-vizualizaci-0.2.0-Setup-x64.exe",
+      "bytes": 34998586,
+      "sha256": "d77d404474b183a6b2ef61d69378a8c94bbbee7e85c8e53f4bb3d009377e6cbf"
+    }
+  ]
+}
