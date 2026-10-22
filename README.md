@@ -4,13 +4,13 @@
 
 | Aplikace | Verze | Účel |
 | --- | --- | --- |
-| Programy SRSS | panel 1.2.1 | Sedm nástrojů SRSS a přímé spouštění PDF čtečky a vizualizací |
+| Programy SRSS | panel 1.2.2 | Sedm nástrojů SRSS a přímé spouštění PDF čtečky a vizualizací |
 | PDF čtečka | 1.3.1 | Samostatná čtečka a nástroje PDF pro Windows |
 | Tvorba vizualizací | 0.2.0 | Samostatný místní editor diagramů s volitelným Gemini |
 
 ## Instalace
 
-Pro Windows 10/11 x64 stáhněte jediný soubor **Programy-SRSS-Komplet-1.2.1-Setup-x64.exe**. Jeden průvodce nainstaluje nebo aktualizuje všechny tři aplikace. Soubory `.sha256` slouží k ověření kontrolního součtu; neinstalují se. Před aktualizací uložte rozpracovanou práci a zavřete aktualizovanou aplikaci.
+Pro Windows 10/11 x64 stáhněte jediný soubor **Programy-SRSS-Komplet-1.2.2-Setup-x64.exe**. Jeden průvodce nainstaluje nebo aktualizuje všechny tři aplikace. Soubory `.sha256` slouží k ověření kontrolního součtu; neinstalují se. Před aktualizací uložte rozpracovanou práci a zavřete aktualizovanou aplikaci.
 
 V panelu **Programy SRSS** i v jediné PWA Programy SRSS jsou samostatná tlačítka **PDF čtečka** a **Tvorba vizualizací**. **Administrativní pomůcky** nadále obsahují převodník souborů, základní úpravy PDF a porovnání verzí dokumentů.
 
@@ -37,3 +37,5 @@ Vizualizace nadále používají `http://127.0.0.1:4178`. Pro dosavadní místn�
 ## Ověření vydání
 
 Přímé spouštění, souběžná kliknutí a převzetí dosavadních cest ověřují automatické zkoušky. Zabalený panel byl spuštěn v odděleném profilu. PDF čtečka a vizualizace jsou stejné balíčky jako v předchozím vydání. PDF podpis byl ověřen syntetickým certifikátem Windows; konkrétní kvalifikovaný certifikát PostSignum nebyl k dispozici pro ověření. Instalační balíčky nejsou opatřeny podpisem vydavatele.
+
+Vydání 1.2.2 sjednocuje ilustrace PDF čtečky a Tvorby vizualizací s modrými postavičkami ostatních nástrojů v PWA i v panelu pro Windows.
