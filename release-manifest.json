@@ -1,27 +1,27 @@
 {
-  "release": "v2026.10.22.2",
+  "release": "v2026.10.22.3",
   "platform": "Windows 10/11 x64",
   "assets": [
     {
+      "file": "Programy-SRSS-Komplet-1.2.3-Setup-x64.exe",
+      "sha256": "84d5e46bf3c0f914bf0653f88eca49e48c83f49317b75a8c92527e55cf185035",
+      "version": "1.2.3",
       "application": "Programy SRSS – společná instalace",
-      "bytes": 769947315,
-      "file": "Programy-SRSS-Komplet-1.2.2-Setup-x64.exe",
-      "version": "1.2.2",
-      "sha256": "76b9e12cfa124cde3cf1b41ffd0fdc1af59d62f31d2cbd920d55c601c961edeb"
+      "bytes": 769945549
     }
   ],
   "components": [
     {
-      "file": "Programy-SRSS-1.2.2-x64.msi",
-      "version": "1.2.2",
+      "file": "Programy-SRSS-1.2.3-x64.msi",
+      "version": "1.2.3",
       "bytes": 161591296,
-      "sha256": "5791f4ea53eafaf39ccba8503e0d2e1596917e425d97c673a674e0e44af17240"
+      "sha256": "6fffbf0329b101fb58d0739f6f785ce7bc77ca4f16ad642d031a0b00e1c69ba4"
     },
     {
-      "file": "PDF-Prohlizec-1.3.1-Setup-x64.exe",
-      "version": "1.3.1",
-      "bytes": 573198515,
-      "sha256": "7f3abeb6826672453a270113310761d319096e58eaf6826ab7c4149422061192"
+      "file": "PDF-Editor-1.3.2-Setup-x64.exe",
+      "version": "1.3.2",
+      "bytes": 573196768,
+      "sha256": "d90114657851c8662d69867f1b2a9d5c5d1ca03bf06089ec4ef5a9cc855ea153"
     },
     {
       "file": "Tvorba-vizualizaci-0.2.0-Setup-x64.exe",

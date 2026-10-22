@@ -1,41 +1,33 @@
-# Programy SRSS, PDF čtečka a Tvorba vizualizací
+# Programy SRSS, PDF editor a Tvorba vizualizací
 
-[Stáhnout aktuální vydání pro Windows](https://github.com/programysrss-sys/programy-srss-windows/releases/latest)
+[Stáhnout společnou instalaci pro Windows](https://github.com/programysrss-sys/programy-srss-windows/releases/latest)
 
-| Aplikace | Verze | Účel |
-| --- | --- | --- |
-| Programy SRSS | panel 1.2.2 | Sedm nástrojů SRSS a přímé spouštění PDF čtečky a vizualizací |
-| PDF čtečka | 1.3.1 | Samostatná čtečka a nástroje PDF pro Windows |
-| Tvorba vizualizací | 0.2.0 | Samostatný místní editor diagramů s volitelným Gemini |
+Pro Windows 10/11 x64 stáhněte jeden soubor **Programy-SRSS-Komplet-1.2.3-Setup-x64.exe**. Jeden průvodce nainstaluje nebo aktualizuje Programy SRSS 1.2.3, PDF editor 1.3.2 a Tvorbu vizualizací 0.2.0. Před instalací uložte práci a zavřete PDF editor a panel SRSS. Soubory `.sha256` a `release-manifest.json` jsou kontrolní údaje, ne další instalátory.
 
-## Instalace
+## Kde najdete PDF
 
-Pro Windows 10/11 x64 stáhněte jediný soubor **Programy-SRSS-Komplet-1.2.2-Setup-x64.exe**. Jeden průvodce nainstaluje nebo aktualizuje všechny tři aplikace. Soubory `.sha256` slouží k ověření kontrolního součtu; neinstalují se. Před aktualizací uložte rozpracovanou práci a zavřete aktualizovanou aplikaci.
+V Programech SRSS otevřete **Administrativní pomůcky → PDF editor a nástroje**. Na jednom místě jsou rychlé webové úpravy PDF a tlačítko pro otevření plného PDF editoru ve Windows. Samostatná PDF dlaždice byla z rozcestníku i panelu odstraněna. Panel má sedm nástrojů SRSS a Tvorbu vizualizací; PDF editor se otevírá ze společné sekce PDF nebo vlastním zástupcem.
 
-V panelu **Programy SRSS** i v jediné PWA Programy SRSS jsou samostatná tlačítka **PDF čtečka** a **Tvorba vizualizací**. **Administrativní pomůcky** nadále obsahují převodník souborů, základní úpravy PDF a porovnání verzí dokumentů.
+PDF editor podporuje také úpravy původního textu, poznámky, formuláře, převody, správu stránek a podepisování certifikátem Windows. Přejmenování zachovává dosavadní profil, nastavení i identitu aplikace. Instalace nepřepisuje původní dokumenty a nevymazává data profilů.
 
-Pomůcky Mini nejsou pro tuto sestavu potřeba. Jejich dosavadní instalace a data zůstávají zachované; lze je dál používat samostatně například pro zvukové převody nebo běžnou kalkulačku s poznámkami.
+## Jedna PWA a první otevření
 
-Panel převezme dosavadní platné cesty k PDF čtečce a vizualizacím z nastavení Pomůcek, aniž by je měnil. PDF čtečku hledá také podle stávajícího zástupce na ploše a ve standardní instalační složce. Pokud aplikaci nenajde, nabídne výběr `PDFProhlizec.exe` nebo připravené složky vizualizací. Vlastní výběr si panel zapamatuje.
+[Programy SRSS](https://programy.srssjesenik.cz/) lze v Chrome nebo Edge nainstalovat jako jedinou PWA. Při prvním otevření v daném prohlížeči se zobrazí krátké vysvětlení: plovoucí panel, pokročilý PDF editor a místní vizualizace potřebují Windows instalaci. Nabízí přímo stažení společného balíčku a pokračování v prohlížeči. Po zavření se informace znovu nezobrazuje. Úvod si pamatuje pouze volbu, že jste informaci již viděli; klientská data do této volby neukládá.
 
-## Jedna PWA
+Načítání výpisů CEE a práce s klienty fungují online i bez instalace. Panel Windows je otevírá se stejným přihlášením. Dočasná chyba připojení již nepřepíná online čtečku do prázdného ukázkového režimu. V samostatném statickém náhledu nabízí příslušná akce online čtečku i stažení instalace.
 
-Web **https://programy.srssjesenik.cz/** lze v Chrome nebo Edge nainstalovat jako jedinou PWA. Dosavadní PWA má stejnou identitu; stačí ji znovu otevřít. Obsahuje sedm nástrojů SRSS a přímé vstupy do nainstalované PDF čtečky a vizualizací. Při prvním otevření místní aplikace prohlížeč požádá o povolení spustit Programy SRSS. Nejde o vložení celých Windows aplikací do webu. Pro jejich místní spouštění musí být v tomto PC dokončená společná instalace. PDF čtečka zůstává dostupná také samostatně online.
+[PDF editor online](https://pdf-ctecka-web.onrender.com/) zůstává dostupný. Jeho pokročilé místní nástroje používají modul v počítači.
 
-Společný instalátor před zahájením ověří kontrolní součty všech tří součástí. Je potřeba uložit práci a zavřít PDF čtečku a panel SRSS. Server instalovaných vizualizací se při aktualizaci zastaví; další otevření ho opět spustí. Instalace probíhá postupně a při chybě se zastaví s vysvětlením. Již dokončené součásti lze ponechat a instalaci zopakovat.
+## Instalace a uložená práce
 
-## Uložená práce
+Společný instalátor před zahájením ověří kontrolní součty všech tří součástí. Instalace probíhá postupně a při chybě se zastaví s vysvětlením. Již dokončené součásti lze ponechat a instalaci zopakovat. Pro současné otevření místní aplikace z prohlížeče může být potřeba potvrdit spuštění Programů SRSS.
 
-Instalační balíčky neobsahují klientská data, soukromé dokumenty ani osobní nastavení. Propojení aplikací neslučuje jejich úložiště ani přihlášení.
+Vizualizace používají `http://127.0.0.1:4178`. Pro dosavadní projekty zachovejte stejný prohlížeč a profil. Důležité diagramy lze uložit jako `.schema.json`. Připojení Gemini nastavíte v aplikaci; veřejné balíčky neobsahují soukromý API klíč. Původní vývojová složka a její nastavení zůstávají zachované.
 
-Vizualizace nadále používají `http://127.0.0.1:4178`. Pro dosavadní místní projekty zachovejte stejný prohlížeč a profil. Důležité diagramy lze uložit do editovatelného souboru `.schema.json`. Instalace nevymazává úložiště prohlížeče. Přibalený Node.js umožňuje jejich samostatné spuštění. Připojení Gemini nastavíte přímo ve vizualizacích; veřejné balíčky neobsahují API klíč. Při přechodu z vývojové do instalační složky může být potřeba připojení znovu nastavit; původní `.env` zůstává zachovaný.
+Pomůcky Mini nejsou pro tuto sestavu potřeba. Jejich dřívější instalace a data nejsou součástí této změny.
 
-## Online aplikace
+## Ověření
 
-[Programy SRSS](https://programy.srssjesenik.cz/) a [PDF čtečka](https://pdf-ctecka-web.onrender.com/) zůstávají dostupné také online. Nástroje SRSS vyžadují přihlášení oprávněného pracovníka. Pokročilé místní nástroje online PDF čtečky využívají její samostatný místní modul. Přímá tlačítka pro Windows aplikace jsou v panelu pro Windows i ve společné PWA.
+Prošlo 28 kontrol panelu a připojení čtečky a 26 testů PDF editoru. V prohlížeči bylo ověřeno jednorázové zobrazení úvodu, pokračování bez opakování, nabídka stažení v ukázce a sjednocená sekce PDF. Zabalený panel načetl osm ikon v odděleném profilu. Skutečnou novou instalaci na tomto PC si podle zadání vyzkouší uživatel sám.
 
-## Ověření vydání
-
-Přímé spouštění, souběžná kliknutí a převzetí dosavadních cest ověřují automatické zkoušky. Zabalený panel byl spuštěn v odděleném profilu. PDF čtečka a vizualizace jsou stejné balíčky jako v předchozím vydání. PDF podpis byl ověřen syntetickým certifikátem Windows; konkrétní kvalifikovaný certifikát PostSignum nebyl k dispozici pro ověření. Instalační balíčky nejsou opatřeny podpisem vydavatele.
-
-Vydání 1.2.2 sjednocuje ilustrace PDF čtečky a Tvorby vizualizací s modrými postavičkami ostatních nástrojů v PWA i v panelu pro Windows.
+Instalační balíčky nejsou podepsané certifikátem vydavatele. Podepisování PDF bylo testované syntetickým certifikátem; konkrétní kvalifikovaný certifikát PostSignum dosud nebyl k dispozici k ověření.
