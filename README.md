@@ -1,33 +1,29 @@
 # Programy SRSS, PDF editor a Tvorba vizualizací
 
-[Stáhnout společnou instalaci pro Windows](https://github.com/programysrss-sys/programy-srss-windows/releases/latest)
+[Stáhnout společnou instalaci pro Windows](https://github.com/programysrss-sys/programy-srss-windows/releases/download/v2026.10.23.1/Programy-SRSS-Komplet-1.2.7-Setup-x64.exe)
 
-Pro Windows 10/11 x64 stáhněte jeden soubor **Programy-SRSS-Komplet-1.2.3-Setup-x64.exe**. Jeden průvodce nainstaluje nebo aktualizuje Programy SRSS 1.2.3, PDF editor 1.3.2 a Tvorbu vizualizací 0.2.0. Před instalací uložte práci a zavřete PDF editor a panel SRSS. Soubory `.sha256` a `release-manifest.json` jsou kontrolní údaje, ne další instalátory.
+Pro Windows 10/11 x64 stačí jeden soubor **Programy-SRSS-Komplet-1.2.7-Setup-x64.exe** (561 MB). Obsahuje panel Programy SRSS **1.2.5**, PDF editor **1.4.2** a Tvorbu vizualizací **0.2.3**.
 
-## Kde najdete PDF
+## Instalace
 
-V Programech SRSS otevřete **Administrativní pomůcky → PDF editor a nástroje**. Na jednom místě jsou rychlé webové úpravy PDF a tlačítko pro otevření plného PDF editoru ve Windows. Samostatná PDF dlaždice byla z rozcestníku i panelu odstraněna. Panel má sedm nástrojů SRSS a Tvorbu vizualizací; PDF editor se otevírá ze společné sekce PDF nebo vlastním zástupcem.
+1. Stáhněte a spusťte společný instalátor.
+2. Uložte práci a běžně zavřete aplikace, které se mají aktualizovat.
+3. Dokončete průvodce. Součásti stejné nebo novější verze přeskočí před rozbalováním.
 
-PDF editor podporuje také úpravy původního textu, poznámky, formuláře, převody, správu stránek a podepisování certifikátem Windows. Přejmenování zachovává dosavadní profil, nastavení i identitu aplikace. Instalace nepřepisuje původní dokumenty a nevymazává data profilů.
+Dokumenty a profily se zachovávají. Při přerušené instalaci lze průvodce spustit znovu. Výchozí aplikaci pro PDF můžete zvolit dobrovolně na konci instalace; změnu potvrdíte v nastavení Windows. Výchozí aplikace pro obrázky se automaticky nenastavuje. Soubory .sha256 a release-manifest.json slouží ke kontrole stažení.
 
-## Jedna PWA a první otevření
+## Kde nástroje najdete
 
-[Programy SRSS](https://programy.srssjesenik.cz/) lze v Chrome nebo Edge nainstalovat jako jedinou PWA. Při prvním otevření v daném prohlížeči se zobrazí krátké vysvětlení: plovoucí panel, pokročilý PDF editor a místní vizualizace potřebují Windows instalaci. Nabízí přímo stažení společného balíčku a pokračování v prohlížeči. Po zavření se informace znovu nezobrazuje. Úvod si pamatuje pouze volbu, že jste informaci již viděli; klientská data do této volby neukládá.
+V [Programech SRSS](https://programy.srssjesenik.cz/) otevřete **Administrativní pomůcky**. Obsahují PDF editor a nástroje, převody, porovnávání dokumentů, Tvorbu prezentací a vstup do místní Tvorby vizualizací. Pomůcky Mini pro tuto sestavu nepotřebujete. Programy SRSS lze v Chrome nebo Edge nainstalovat jako jednu PWA. [PDF editor online](https://pdf-ctecka-web.onrender.com/) zůstává dostupný.
 
-Načítání výpisů CEE a práce s klienty fungují online i bez instalace. Panel Windows je otevírá se stejným přihlášením. Dočasná chyba připojení již nepřepíná online čtečku do prázdného ukázkového režimu. V samostatném statickém náhledu nabízí příslušná akce online čtečku i stažení instalace.
+PDF editor otevírá PDF i JPG/JPEG, PNG, WebP, BMP a TIFF v samostatných kartách. Nabízí úpravy obrázků, poznámky, formuláře, převody, správu stránek, práci s XFA a vloženými přílohami i podpisy certifikátem Windows. Výchozí ukládání vytváří kopii. Schválené kompaktní lišty, spodní navigace a ikona s oranžovočervenými písmeny PDF jsou součástí vydání.
 
-[PDF editor online](https://pdf-ctecka-web.onrender.com/) zůstává dostupný. Jeho pokročilé místní nástroje používají modul v počítači.
+Vizualizace používají místní adresu http://127.0.0.1:4178. Pro dosavadní projekty zachovejte stejný prohlížeč a profil. Diagram lze uložit jako .schema.json. Gemini se nastavuje zvlášť; balíček neobsahuje soukromé API klíče.
 
-## Instalace a uložená práce
+## Změny a ověření
 
-Společný instalátor před zahájením ověří kontrolní součty všech tří součástí. Instalace probíhá postupně a při chybě se zastaví s vysvětlením. Již dokončené součásti lze ponechat a instalaci zopakovat. Pro současné otevření místní aplikace z prohlížeče může být potřeba potvrdit spuštění Programů SRSS.
+Společný instalátor je proti 1.2.4 o 25 % menší, samotný PDF instalátor o 33 %. Při místním měření klesla první instalace PDF z 6:02 na 4:55; plná finální společná instalace trvala 4:31 a přeskočení hotové instalace přibližně 4 sekundy. Jde o jednotlivá měření na jednom PC, ne garantované časy. Zrychlení samotného startu aplikace nebylo prokázáno.
 
-Vizualizace používají `http://127.0.0.1:4178`. Pro dosavadní projekty zachovejte stejný prohlížeč a profil. Důležité diagramy lze uložit jako `.schema.json`. Připojení Gemini nastavíte v aplikaci; veřejné balíčky neobsahují soukromý API klíč. Původní vývojová složka a její nastavení zůstávají zachované.
+Ověřeny skutečná instalace, aktualizace, odinstalace a opětovná instalace, zachování profilů a výchozích aplikací, funkce PDF/obrázků/OCR/Office/XFA a podpisy. Spouštěče fungují i bez prostředí Codexu. Instalátor aplikace násilně neukončuje; ověřuje kontrolní součty a volné místo.
 
-Pomůcky Mini nejsou pro tuto sestavu potřeba. Jejich dřívější instalace a data nejsou součástí této změny.
-
-## Ověření
-
-Prošlo 28 kontrol panelu a připojení čtečky a 26 testů PDF editoru. V prohlížeči bylo ověřeno jednorázové zobrazení úvodu, pokračování bez opakování, nabídka stažení v ukázce a sjednocená sekce PDF. Zabalený panel načetl osm ikon v odděleném profilu. Skutečnou novou instalaci na tomto PC si podle zadání vyzkouší uživatel sám.
-
-Instalační balíčky nejsou podepsané certifikátem vydavatele. Podepisování PDF bylo testované syntetickým certifikátem; konkrétní kvalifikovaný certifikát PostSignum dosud nebyl k dispozici k ověření.
+Instalační balíčky nejsou podepsané certifikátem vydavatele. Podpisové testy PDF používají syntetický certifikát; nedokládají kvalifikovaný podpis ani podporu konkrétního tokenu.

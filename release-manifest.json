@@ -1,33 +1,48 @@
 {
-  "release": "v2026.10.22.3",
+  "release": "v2026.10.23.1",
   "platform": "Windows 10/11 x64",
   "assets": [
     {
-      "file": "Programy-SRSS-Komplet-1.2.3-Setup-x64.exe",
-      "sha256": "84d5e46bf3c0f914bf0653f88eca49e48c83f49317b75a8c92527e55cf185035",
-      "version": "1.2.3",
-      "application": "Programy SRSS – společná instalace",
-      "bytes": 769945549
+      "version": "1.2.7",
+      "sha256": "c11821c1af3b465ca3ef5a7e298f0ab1d7c3420a9ac991a95a7a22539e129ae7",
+      "application": "Programy SRSS",
+      "bytes": 561363079,
+      "file": "Programy-SRSS-Komplet-1.2.7-Setup-x64.exe"
     }
   ],
   "components": [
     {
-      "file": "Programy-SRSS-1.2.3-x64.msi",
-      "version": "1.2.3",
-      "bytes": 161591296,
-      "sha256": "6fffbf0329b101fb58d0739f6f785ce7bc77ca4f16ad642d031a0b00e1c69ba4"
+      "file": "Programy-SRSS-1.2.5-x64.msi",
+      "version": "1.2.5",
+      "bytes": 149200896,
+      "sha256": "77834785edae98c3e9e0d84439cf368e9308192e493d2af755ca9e793855ec21",
+      "space": {
+        "temporaryBytes": 540635154,
+        "installedFiles": 189,
+        "installedBytes": 391434258
+      }
     },
     {
-      "file": "PDF-Editor-1.3.2-Setup-x64.exe",
-      "version": "1.3.2",
-      "bytes": 573196768,
-      "sha256": "d90114657851c8662d69867f1b2a9d5c5d1ca03bf06089ec4ef5a9cc855ea153"
+      "file": "PDF-Editor-1.4.2-Setup-x64.exe",
+      "version": "1.4.2",
+      "bytes": 383366320,
+      "sha256": "66b4c7406da1bf2012f0b98ba220dbafba1ade319120aa1b465d7657fa010488",
+      "space": {
+        "temporaryBytes": 1753901535,
+        "installedFiles": 14451,
+        "installedBytes": 1370535215
+      }
     },
     {
-      "file": "Tvorba-vizualizaci-0.2.0-Setup-x64.exe",
-      "version": "0.2.0",
-      "bytes": 34998586,
-      "sha256": "d77d404474b183a6b2ef61d69378a8c94bbbee7e85c8e53f4bb3d009377e6cbf"
+      "file": "Tvorba-vizualizaci-0.2.3-Setup-x64.exe",
+      "version": "0.2.3",
+      "bytes": 28625286,
+      "sha256": "167818d91a1714c348eb8c8144bf6eb137af9335c4b0086ffb18381709771559",
+      "space": {
+        "temporaryBytes": 140809987,
+        "installedFiles": 43,
+        "installedBytes": 112184701
+      }
     }
   ]
 }
